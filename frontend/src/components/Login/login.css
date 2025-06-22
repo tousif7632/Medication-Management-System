@@ -1,0 +1,110 @@
+.website-name h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 15px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: ghostwhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.remember-me {
+  display: flex;
+  gap: 5px;
+  width: 600px;
+}
+
+.link-button {
+  color: rgb(237, 78, 78);
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.login-button {
+  height: 40px;
+  background-image: linear-gradient(to right, #4e71ff, #16c47f);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-image: linear-gradient(to right, #3259f3, #08a868);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.login-text {
+  text-align: center;
+  font-size: 0.9rem;
+}

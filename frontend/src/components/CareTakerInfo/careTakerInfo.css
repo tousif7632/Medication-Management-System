@@ -1,0 +1,55 @@
+.caretaker-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.caretaker-info {
+  background-image: linear-gradient(to right, #16c47f, #4e71ff);
+  padding: 30px;
+  width: 100%;
+  max-width: 1150px;
+  border-radius: 10px;
+}
+.caretaker-profile-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+}
+.caretaker-profile-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.greeting-message {
+  font-size: 30px;
+}
+.intro-message {
+  font-size: 18px;
+}
+.caretaker-activities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px 5px 0px;
+}
+@media screen and (min-width: 576px) {
+  .caretaker-activities-container {
+    flex-direction: row;
+  }
+}
+.caretaker-activity {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}

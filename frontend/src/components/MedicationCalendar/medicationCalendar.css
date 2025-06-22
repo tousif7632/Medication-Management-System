@@ -1,0 +1,18 @@
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+.red-dot {
+  background-color: red;
+}
+
+.green-dot {
+  background-color: green;
+}
+
+.blue-dot {
+  background-color: #1a73e8;
+}

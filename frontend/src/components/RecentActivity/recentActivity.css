@@ -1,0 +1,107 @@
+.activity-section {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.activity-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+}
+
+.status-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  flex-shrink: 0;
+}
+
+.status-icon.completed {
+  background-color: #d8fde4;
+}
+
+.status-icon.missed {
+  background-color: #ffd6db;
+}
+
+.activity-main {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.activity-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.activity-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.activity-day,
+.activity-time {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.activity-photo {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid gainsboro;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.status-text.completed {
+  color: #28a745;
+}
+
+.status-text.missed {
+  color: #dc3545;
+}
+
+@media (max-width: 600px) {
+  .activity-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .activity-right {
+    justify-content: flex-start;
+  }
+}

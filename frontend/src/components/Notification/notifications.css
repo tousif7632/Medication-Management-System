@@ -1,0 +1,177 @@
+.notification-section {
+  margin: 10px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.notification-section h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.notification-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  margin-bottom: 15px;
+}
+
+.notification-row:first-of-type {
+  border-top: none;
+}
+
+.notification-row h6 {
+  margin: 0;
+  font-size: 16px;
+  color: #222;
+}
+
+.notification-row p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.notification-row svg {
+  font-size: 28px;
+  color: black;
+  cursor: pointer;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 20px;
+}
+
+.input-row label {
+  font-size: 14px;
+  color: #333;
+}
+
+.input-row input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-row input:focus {
+  border-color: #242424;
+}
+.separator {
+  margin-bottom: 20px;
+}
+.dropdown-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.dropdown-row label {
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown-row select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.dropdown-row select:focus {
+  border-color: #242424;
+}
+.time-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.time-input-row label {
+  font-size: 14px;
+  color: #333;
+}
+.time-input-row p {
+  font-size: 12px;
+  color: gray;
+}
+
+.time-input-row input[type="time"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.time-input-row input[type="time"]:focus {
+  border-color: #242424;
+}
+.email-preview-section {
+  margin: 0px 0px 10px 0px;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  color: #333;
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.preview-header h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.preview-header svg {
+  font-size: 24px;
+  color: #0078d4;
+}
+
+.preview-body p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.preview-body strong {
+  color: #222;
+}
+
+.save-notification-settings {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.save-text {
+  font-weight: 600;
+  color: #fff;
+  background-color: green;
+  padding: 10px;
+  width: 230px;
+  cursor: pointer;
+  border-radius: 5px;
+}

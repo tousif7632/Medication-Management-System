@@ -1,0 +1,108 @@
+.role-card-container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .role-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.role-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fbfbfb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: transform 0.5s ease;
+}
+.role-card:hover {
+  transform: scale(1.01);
+}
+.patient-card:hover {
+  border: 1px solid #a2b2f5;
+}
+.caretaker-card:hover {
+  border: 1px solid #70e9b9;
+}
+.role-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.patient {
+  color: #4e71ff;
+}
+.caretaker {
+  color: #16c47f;
+}
+.role-description {
+  width: 100%;
+  color: gray;
+}
+@media screen and (min-width: 1204px) {
+  .role-description {
+    width: 400px;
+  }
+}
+.role-features {
+  margin: 0px 17px;
+  text-align: left;
+  line-height: 2;
+  color: gray;
+}
+.role-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+}
+.patient-btn {
+  background-color: #0065f8;
+}
+.caretaker-btn {
+  background-color: #349b07;
+}
+.patient-btn:hover {
+  background-color: #035ee7;
+}
+.caretaker-btn:hover {
+  background-color: #2d8c05;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  border-radius: 10px;
+}
+.patient-icon {
+  background-color: #e5e8f8;
+}
+.caretaker-icon {
+  background-color: #dcfbee;
+}
+.patient-icon:hover {
+  background-color: #c6daf8;
+}
+.caretaker-icon:hover {
+  background-color: #b7f5dc;
+}
+.patient-features li::marker {
+  color: #4e71ff;
+}
+.caretaker-features li::marker {
+  color: #16c47f;
+}

@@ -1,0 +1,106 @@
+.website-name h1 {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #4e71ff, #16c47f);
+  padding: 16px;
+  margin: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 0 1rem;
+}
+
+.register-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: ghostwhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.form-header p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+}
+.form-group select {
+  height: 40px;
+  background-color: transparent;
+}
+
+.checkbox {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.link-text {
+  color: rgb(237, 78, 78);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.submit-button {
+  height: 40px;
+  background-image: linear-gradient(to right, #4e71ff, #16c47f);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-image: linear-gradient(to right, #3259f3, #08a868);
+}
+
+.switch-link {
+  text-align: center;
+  font-size: 0.9rem;
+}

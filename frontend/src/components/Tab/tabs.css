@@ -1,0 +1,31 @@
+.carataker-details-container {
+  width: 1150px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+}
+button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+.info {
+  margin: 20px;
+  font-size: 18px;
+}
+@media screen and (min-width: 1205px) {
+  .info {
+    margin: 0px;
+  }
+}
+.active {
+  background-color: antiquewhite;
+}

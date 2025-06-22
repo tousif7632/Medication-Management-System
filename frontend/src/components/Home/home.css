@@ -1,0 +1,68 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+@media screen and (min-width: 576px) {
+  .main-container {
+    height: 100vh;
+  }
+}
+
+.website-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #4e71ff, #16c47f);
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.home-decription {
+  margin: 15px 0px;
+  color: gray;
+  font-size: 18px;
+}
+.note-content {
+  margin-top: 10px;
+  color: gray;
+}
+.logout-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logout-container button {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  font-weight: bold;
+}
+
+.logout-container button:hover {
+  background-color: rgb(101, 159, 101);
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,48 @@
+.calendar-view-section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0px;
+}
+.calendar-view-section h2 {
+  font-size: 22px;
+  color: #242424;
+}
+.calender-view {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .calender-view {
+    flex-direction: row;
+    gap: 0px;
+  }
+}
+
+.medication-details p {
+  font-size: 15px;
+}
+.medication-status-view {
+  background-color: #f3eaeb;
+  border: 2px solid #ffd6db;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #6b0000;
+  line-height: 1.8;
+}
+@media screen and (min-width: 1024px) {
+  .medication-status-view {
+    width: 500px;
+  }
+}
+.medication-status-view h6 {
+  font-size: 15px;
+}
+.medication-status-view p {
+  font-size: 12px;
+}
