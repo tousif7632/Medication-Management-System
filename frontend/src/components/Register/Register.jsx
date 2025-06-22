@@ -35,7 +35,7 @@ const Register = () => {
     }
 
     try {
-      const signUpUrl = `http://localhost:5000/api/users/signup`;
+      const signUpUrl = `https://medication-management-system-ov6n.onrender.com/api/users/signup`;
       const options = {
         method: "POST",
         headers: {
@@ -70,7 +70,7 @@ const Register = () => {
   return (
     <section>
       <div className="website-name">
-        <h1>MediCare</h1>
+        <h1>M</h1>
       </div>
 
       <section className="register-container">

@@ -27,7 +27,7 @@ const Login = () => {
     setError("");
 
     try {
-      const loginUrl = "http://localhost:5000/api/users/login";
+      const loginUrl = "https://medication-management-system-ov6n.onrender.com/api/users/login";
       const response = await fetch(loginUrl, {
         method: "POST",
         headers: {
